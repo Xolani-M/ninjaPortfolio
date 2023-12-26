@@ -434,16 +434,27 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+/* .teams .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid rgb(67, 80, 201);
-}
+} */
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
+.teams .carousel .card a {
+    color: #fff;  /* Text color */
+    background-color: rgb(35, 131, 134);  /* Background color */
+    padding: 10px 15px;  /* Adjust padding for better appearance */
+    text-decoration: none;  /* Remove default underline */
+    display: inline-block;  /* Make the background cover the entire link area */
+    border-radius: 5px;  /* Add some border-radius for a rounded appearance */
+}
+
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
